@@ -15,6 +15,7 @@
 		E4CDAD4A256F2FED00491A73 /* searchResults.json in Resources */ = {isa = PBXBuildFile; fileRef = E4CDAD49256F2FED00491A73 /* searchResults.json */; };
 		E4CDAD4D256F30AD00491A73 /* SearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4CDAD4C256F30AD00491A73 /* SearchResult.swift */; };
 		E4CDAD50256F31A000491A73 /* dummySearchResults.json in Resources */ = {isa = PBXBuildFile; fileRef = E4CDAD4F256F31A000491A73 /* dummySearchResults.json */; };
+		E4CDAD55256F43E800491A73 /* InstrumentDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4CDAD54256F43E800491A73 /* InstrumentDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		E4CDAD49256F2FED00491A73 /* searchResults.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = searchResults.json; sourceTree = "<group>"; };
 		E4CDAD4C256F30AD00491A73 /* SearchResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResult.swift; sourceTree = "<group>"; };
 		E4CDAD4F256F31A000491A73 /* dummySearchResults.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = dummySearchResults.json; sourceTree = "<group>"; };
+		E4CDAD54256F43E800491A73 /* InstrumentDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstrumentDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,12 +83,21 @@
 		E4CDAD45256F2E6200491A73 /* SearchResults */ = {
 			isa = PBXGroup;
 			children = (
+				E4CDAD53256F43D400491A73 /* InstrumentDetail */,
 				E4CDAD46256F2E8500491A73 /* SearchResultsView.swift */,
 				E4CDAD49256F2FED00491A73 /* searchResults.json */,
 				E4CDAD4C256F30AD00491A73 /* SearchResult.swift */,
 				E4CDAD4F256F31A000491A73 /* dummySearchResults.json */,
 			);
 			path = SearchResults;
+			sourceTree = "<group>";
+		};
+		E4CDAD53256F43D400491A73 /* InstrumentDetail */ = {
+			isa = PBXGroup;
+			children = (
+				E4CDAD54256F43E800491A73 /* InstrumentDetail.swift */,
+			);
+			path = InstrumentDetail;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +174,7 @@
 				E4CDAD38256F120500491A73 /* ContentView.swift in Sources */,
 				E4CDAD47256F2E8500491A73 /* SearchResultsView.swift in Sources */,
 				E4CDAD4D256F30AD00491A73 /* SearchResult.swift in Sources */,
+				E4CDAD55256F43E800491A73 /* InstrumentDetail.swift in Sources */,
 				E4CDAD36256F120500491A73 /* sharesies_ios_appApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

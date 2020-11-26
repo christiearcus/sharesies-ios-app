@@ -18,11 +18,14 @@ struct SearchScreen: View {
         let data = readLocalFile(forName: "searchResults")
         let parsed = parse(jsonData: data!)
         
-        HStack {
+        NavigationView {
             List(parsed) {
-                result in SearchRow(searchResult: result)
+                    result in
+                NavigationLink(destination: InstrumentDetail(instrument: result)) {
+                            SearchRow(searchResult: result)
+                }
             }
-        }
+        }.navigationBarTitle(Text("Search results"))
         
     }
     
